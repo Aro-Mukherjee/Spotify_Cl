@@ -1,0 +1,27 @@
+ody{
+    background-color: black;
+    color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.left{
+    width:25vw;
+    padding: 10px;
+}
+.right{
+    width:75vw;
+}
+.logo ul li{
+    width:15px;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+    /* height: 40px; */
+}
+.logo{
+    padding: 20px;
+    border-radius: 5px;
+}

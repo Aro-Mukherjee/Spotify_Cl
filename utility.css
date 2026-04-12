@@ -1,0 +1,14 @@
+.border{
+    border: 1px solid black;
+    margin: 3px;
+}
+.flex{
+    display: flex;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.bg-grey{
+    background-color: grey;
+}
