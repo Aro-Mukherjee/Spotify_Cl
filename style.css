@@ -8,7 +8,7 @@ ody{
 }
 .left{
     width:25vw;
-    padding: 10px;
+    padding: 6px;
 }
 .right{
     width:75vw;
@@ -19,9 +19,22 @@ ody{
     display: flex;
     gap: 10px;
     padding: 5px;
+    padding-top: 10px;
+    /* font-weight: bold; */
     /* height: 40px; */
 }
 .logo{
     padding: 20px;
     border-radius: 5px;
+}
+.libary{
+    padding: 20px;
+    border-radius: 5px;
+    margin: 5px;
+   
+
+}
+.footer {
+    display: flex;
+    
 }
