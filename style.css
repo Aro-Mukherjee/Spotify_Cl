@@ -31,10 +31,27 @@ ody{
     padding: 20px;
     border-radius: 5px;
     margin: 5px;
+    min-height: 80vh;
+    position: relative;
    
 
 }
 .footer {
     display: flex;
+    font-size: 15px;
+    gap: 13px;
+    position: absolute;
+    bottom: 0;
+        /* padding: 10px; */
     
+
+}
+.footer a{
+    color: gray;
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
 }
