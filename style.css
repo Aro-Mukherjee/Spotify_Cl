@@ -1,17 +1,20 @@
-ody{
+body{
     background-color: black;
     color: white;
+    
 }
+
 *{
     margin: 0;
     padding: 0;
 }
 .left{
     width:25vw;
-    padding: 6px;
+    /* padding: 6px; */
 }
 .right{
-    width:75vw;
+    width:71vw;
+    margin: 18px 0;
 }
 .logo ul li{
     width:15px;
@@ -30,8 +33,9 @@ ody{
 .libary{
     padding: 20px;
     border-radius: 5px;
-    margin: 5px;
-    min-height: 80vh;
+    margin-top: 10px;
+    /* margin: 5px; */
+    min-height: 71vh;
     position: relative;
    
 
@@ -52,6 +56,26 @@ ody{
 }
 .header{
     display: flex;
-    gap: 20px;
+    /* gap: 20px; */
+    /* padding: 20px; */
+    justify-content: space-between;
+    background-color: rgb(31, 29, 29);
+    
+}
+.header  > *{
     padding: 20px;
 }
+.header button{
+    background-color: rgb(31, 29, 29);
+    color: white;
+    border: 1px solid white;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+.Spotify-Playlist{
+    /* background-color: rgb(31, 29, 29); */
+    /* height: 20vh; */
+    margin: 20px;
+    border-radius: 5px;
+}
+
