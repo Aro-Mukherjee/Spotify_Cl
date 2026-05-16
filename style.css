@@ -67,13 +67,13 @@ body{
 .header  > *{
     padding: 20px;
 }
-.header button{
+/* .header button{ */
     /* background-color: rgb(31, 29, 29);
     color: white;
     border: 1px solid white;
     padding: 5px 15px;
     border-radius: 20px; */
-}
+/* } */
 .Spotify-Playlist{
     /* background-color: rgb(31, 29, 29); */
     /* height: 20vh; */
@@ -167,7 +167,7 @@ body{
     position: absolute;
     bottom: 0;
     padding: 12px;
-    width: 100%;
+    width: 90%;
     background-color: rgb(0, 0, 0);
 }
 .songbuttons{
@@ -176,4 +176,11 @@ body{
     justify-content: center;
     height: 40px;
 }
-
+.libary ul{
+    list-style: none;
+    padding: 10px;
+}
+.libary ul li{
+    list-style-type: decimal;
+    padding: 5px;
+}
