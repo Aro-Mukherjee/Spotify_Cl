@@ -176,11 +176,11 @@ body{
     justify-content: center;
     height: 40px;
 }
-.libary ul{
+.songlist ul{
     list-style: none;
     padding: 10px;
 }
-.libary ul li{
+.songlist ul li{
     list-style-type: decimal;
     padding: 5px;
 }
